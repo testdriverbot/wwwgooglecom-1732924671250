@@ -1,0 +1,12 @@
+version: 4.1.29
+steps:
+  - prompt: Scroll to the bottom of the page.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Assert that the "Contact us" link is present.
+    commands:
+      - command: scroll
+        direction: down
+      - command: assert
+        expect: the "Contact us" link is present
