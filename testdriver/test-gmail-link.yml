@@ -1,0 +1,58 @@
+version: 4.1.29
+steps:
+  - prompt: Click on the "Gmail" link at the top right.
+    commands:
+      - command: hover-text
+        text: Gmail
+        description: Gmail link at the top right of the Google homepage
+        action: click
+  - prompt: Click on the "Gmail" link at the top right.
+    commands:
+      - command: hover-text
+        text: Gmail
+        description: Gmail link at the top right of the Google homepage
+        action: click
+  - prompt: Click on the "Gmail" link at the top right.
+    commands:
+      - command: hover-text
+        text: Gmail
+        description: Gmail link at the top right of the Google homepage
+        action: click
+  - prompt: Click on the "Gmail" link at the top right.
+    commands:
+      - command: hover-text
+        text: Gmail
+        description: Gmail link at the top right of the Google homepage
+        action: click
+      - command: wait
+        timeout: 2000
+  - prompt: Click on the "Gmail" link at the top right.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Gmail
+        description: Gmail link at the top right of the Google homepage
+        action: click
+      - command: wait
+        timeout: 2000
+  - prompt: Click on the "Gmail" link at the top right.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Gmail
+        description: Gmail link at the top right of the Google homepage
+        action: click
+      - command: wait
+        timeout: 2000
+  - prompt: Click on the "Gmail" link at the top right.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Gmail
+        description: Gmail link at the top right of the Google homepage
+        action: click
+      - command: wait
+        timeout: 3000
