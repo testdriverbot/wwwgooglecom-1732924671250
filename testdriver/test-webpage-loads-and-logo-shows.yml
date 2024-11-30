@@ -1,0 +1,20 @@
+version: 4.1.29
+steps:
+  - prompt: Assert that the webpage loads successfully.
+    commands:
+      - command: hover-text
+        text: Google Search
+        description: main google search button
+        action: hover
+      - command: assert
+        expect: the webpage loads successfully
+  - prompt: >-
+      Assert that the Google logo is visible on the page.  # Use the content of
+      the file from the environment
+    commands:
+      - command: hover-text
+        text: Google
+        description: Google logo on the homepage
+        action: hover
+      - command: assert
+        expect: the Google logo is visible on the page
