@@ -1,0 +1,44 @@
+version: 4.1.29
+steps:
+  - prompt: Click on the "Google Search" button.
+    commands:
+      - command: hover-text
+        text: Google Search
+        description: search button on Google homepage
+        action: click
+  - prompt: Click on the "Google Search" button.
+    commands:
+      - command: hover-text
+        text: Google Search
+        description: search button on Google homepage
+        action: click
+  - prompt: Click on the "Google Search" button.
+    commands:
+      - command: hover-text
+        text: Google Search
+        description: search button on Google homepage
+        action: click
+  - prompt: Click on the "Google Search" button.
+    commands:
+      - command: hover-text
+        text: Google Search
+        description: search button on Google homepage
+        action: click
+  - prompt: Click on the "Google Search" button.
+    commands:
+      - command: hover-text
+        text: Google Search
+        description: search button on Google homepage
+        action: click
+  - prompt: Click on the "Google Search" button.
+    commands:
+      - command: hover-text
+        text: Google Search
+        description: search button on Google homepage
+        action: click
+  - prompt: Click on the "Google Search" button.
+    commands:
+      - command: hover-text
+        text: Google Search
+        description: search button on Google homepage
+        action: click
