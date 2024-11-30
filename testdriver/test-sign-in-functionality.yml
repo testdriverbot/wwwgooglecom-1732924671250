@@ -1,0 +1,14 @@
+version: 4.1.29
+steps:
+  - prompt: Click the "Sign in" button on the top right.
+    commands:
+      - command: hover-text
+        text: Sign in
+        description: sign in button on the top right
+        action: click
+  - prompt: >-
+      Assert that the sign-in page is displayed.  # Use the content of the file
+      from the environment
+    commands:
+      - command: assert
+        expect: the sign-in page is displayed
